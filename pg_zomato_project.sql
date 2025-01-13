@@ -6,37 +6,6 @@ SELECT * FROM orders;
 SELECT * FROM riders;
 SELECT * FROM deliveries;
 
--- Checking for NULL VALUES
-
-SELECT COUNT(*) FROM customers
-WHERE 
-	customer_name IS NULL
-	OR
-	reg_date IS NULL
-
-
-
-SELECT COUNT(*) FROM restaurants
-WHERE 
-	restaurant_name IS NULL
-	OR
-	city IS NULL
-	OR
-	opening_hours IS NULL
-
-SELECT * FROM orders
-WHERE 
-	order_item IS NULL
-	OR
-	order_date IS NULL
-	OR
-	order_time IS NULL
-	OR
-	order_status IS NULL
-	OR 
-	total_amount IS NULL;
-
-
 -- Business Problems Solutions
 
 -- Q.1
