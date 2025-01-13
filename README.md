@@ -2,7 +2,7 @@
 
 # SQL Project: Data Analysis for Zomato - A Food Delivery Company
 
-![](zomato_media.png)
+![Zomato](Zomato_media.jpg)
 
 ## Overview
 
